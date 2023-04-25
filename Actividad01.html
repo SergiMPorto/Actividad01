@@ -45,31 +45,46 @@
 
 <body>
     <form action="procesarDatos.jsp method="get">
-        <fieldset>
+        <fieldset class="fieldset">
             <legend>Hazte socio</legend>
             <br>
             <label for="nombre">Nombre:</label>
-            <input id="nombre" type="text" name="nombre">
+            <input id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre" autofocus required>
             <label for="apellidos">Apellidos</label>
-            <input id= "apellidos" type="text" name="apellidos">
+            <input id= "apellidos" type="text" name="apellidos" placeholder="Escribe tu apellidos" autofocus required>
         </br>
         <br>
         <label for="dni">DNI</label>
-        <input id="dni" type="text" name="DNI">
+        <input id="dni" type="text" name="DNI" autofocus required>
     </br>
     <br>
     <label for="fecha_nacimiento">Fecha Nacimiento</label>
-    <input id=fecha_nacimiento type="text" name="fecha_nacimiento">
+    <input id=fecha_nacimiento type="date" name="trip-start"  autofocus required>
 </br>
 <br>
 <label for="dirección">Dirección</label>
-<input type="text" name="dirección" id="dirección">
+<input type="text" name="dirección" id="dirección" autofocus required placeholder="Escribe tu dirección">
 </br>
+<br>
+<label for="email">Email</label>
+<input type="email" name="email" id="email" autofocus>
+</br>
+<br>
+<label for="Teléfono">Teléfono</label>
+<input type="tel" id="telefono" autofocus placeholder="Escribe">
+</br>
+
+
 <label for="Cuota">Cuota</label> <br/>
 <input type="radio" name="Cuota" value="Anual"/> Anual<br/>
 <input type="radio" name="Cuota" value="Mensual"/>Mensual<br/>
 <input type="radio" name="Cuota" value="Trimestral"/>Trimestral<br/>
 <input type="radio" name="Cuota"  value="Semestral"/>Semestral<br/>
+<br>
+<label for="Importe">Importe</label>
+<input type="text" name="importe" id="importe">
+</br>
+
 
 
 
