@@ -34,11 +34,11 @@
     background-repeat: no-repeat;
 }
 
-#fieldset {
-    height: 400px;
-    width: 800px;
+fieldset {
+    height: 485px;
+    width: 600px;
 }
-hoja de estilo de user-agent
+
 fieldset {
     display: block;
     margin-inline-start: 2px;
@@ -48,8 +48,8 @@ fieldset {
     padding-inline-end: 0.75em;
     padding-block-end: 0.625em;
     min-inline-size: min-content;
-    border-width: 2px;
-    border-style: groove;
+    border-width: 4px;
+    border-style: grove;
     border-color: rgb(192, 192, 192);
     border-image: initial;
 }
