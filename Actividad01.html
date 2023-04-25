@@ -2,11 +2,13 @@
 <html>
 <head>
    
+    
     <meta charset="UTF-8" />
     <title>Recupera tu bosque</title>
     <link rel="stylesheet" href="Estilos/Styles.css">
     <img  id=Fotoga src="img/Bosque 2.jpg"  alt="Bosque"> 
-    
+    	
+
 </head>
  
    
@@ -42,6 +44,41 @@
 
 
 <body>
+    <form action="procesarDatos.jsp method="get">
+        <fieldset>
+            <legend>Hazte socio</legend>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text" name="nombre">
+            <label for="apellidos">Apellidos</label>
+            <input id= "apellidos" type="text" name="apellidos">
+        </br>
+        <br>
+        <label for="dni">DNI</label>
+        <input id="dni" type="text" name="DNI">
+    </br>
+    <br>
+    <label for="fecha_nacimiento">Fecha Nacimiento</label>
+    <input id=fecha_nacimiento type="text" name="fecha_nacimiento">
+</br>
+<br>
+<label for="dirección">Dirección</label>
+<input type="text" name="dirección" id="dirección">
+</br>
+<label for="Cuota">Cuota</label> <br/>
+<input type="radio" name="Cuota" value="Anual"/> Anual<br/>
+<input type="radio" name="Cuota" value="Mensual"/>Mensual<br/>
+<input type="radio" name="Cuota" value="Trimestral"/>Trimestral<br/>
+<input type="radio" name="Cuota"  value="Semestral"/>Semestral<br/>
+
+
+
+
+
+        </fieldset>
+    
+    
+    </form>
     
 </body>
 </html>
