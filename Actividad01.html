@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <title>Recupera tu bosque</title>
     <link rel="stylesheet" href="Estilos/Styles.css">
-    <img  id=Fotoga src="img/Bosque 2.jpg"  alt="Bosque"> 
+    <img  id=Fotoga src="img/Bosque2.jpg"  alt="Bosque"> 
     <h1> Recupera Tu Bosque</h1>
     	
 
@@ -16,11 +16,22 @@
 <nav clas="Menú">
     <div id="navegador">
         <ul>
-            <li><a href="#">Inicio</a></li>
+            <!--<li><a href="#">Inicio</a></li>
             <li><a href="#">Sobre nosotros</a></li>
             <li><a href="#">Contacto</a></li>
             <li> <a href=#>Noticias</a></li>
             <li><a href="#"> Hazte socio/a</a></li>
+            -->
+            <li><a href="">Menu</a>
+                <ul class="hijos">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li> <a href=#>Noticias</a></li>
+                    <li><a href="#"> Hazte socio/a</a></li>
+                </ul>
+            </li>
+        
         </ul>
     </div>
 </nav>
@@ -92,13 +103,16 @@
 </body>
 
 <footer>
-    <ul>
-        <li> <a href="#"> Síguenos</a></li>
-        <ul> 
-            <li><a href="https://twitter.com/?lang=es">Twitter</a></li>
-            <li><a href="https://www.instagram.com">Instagram</a></li>
-        </ul>
-        <li><a href="#">Privacidad, cookies y condiciones legales</a></li>
-    </ul>
+    <div class="flex-center">
+        <div id="fondo">
+            <ul>
+                <li id="linkTwitter"><a href="https://twitter.com/?lang=es"><img id="logoTwitter" src="img/logoTwitter.png"  alt="Twitter"></img></a></li>
+                <li><a href="https://www.instagram.com"><img id="logoInstagram" src="img/logoInstagram.png"  alt="Instagram"></img></a></li>
+                <li id="prueba"><a href="#">Privacidad, cookies y condiciones legales</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    
 </footer>
 </html>
