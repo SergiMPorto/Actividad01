@@ -1,28 +1,72 @@
-/*DIVS*/
-/*
-#navegador ul {
-    list-style-type: none;
-    text-align: left;
-    padding-left: 0%;
-}
-#navegador li a {
-    padding: 20px 30px 20px 30px;
-    color: #0d0e0d;
-    background-color: #075732;
-    border: 1px solid #ccc;
-    text-decoration: none;
-    
- }
+/*MENU*/
 
-#navegador li {
-    display: inline;
+.barra{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10%;
+    height: 9%;
+    
+    transition: .4s all;
+    z-index: 1;
+}
+
+.barra ul{
+    padding:0px;
     text-align: center;
-    margin: 0%;
 }
-.hijos{
-    display:inline;
+
+.barra li{
+    transition: .3s all;
 }
-*/
+
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    font-size: 0px;
+    padding:0px;
+}
+
+.barra h2{
+    text-align: center;
+    color:white;
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size: 0px;
+}
+
+.barra:hover{
+    width: 0%;
+    height: 100%;
+
+    background-color: green;
+}
+
+.barra:hover h2{
+    padding: 15px;
+    font-size: 35px;
+}
+
+.barra:hover a{
+    font-size: 20px;
+    color:white;
+
+    display: block;
+    padding:20px;
+}
+
+.barra:hover img{
+    height: 0px!important;
+}
+
+.barra:hover li{
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+
+
+
+
 
 #Fotoga {
     width: 100%;
