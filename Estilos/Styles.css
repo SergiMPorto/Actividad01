@@ -23,6 +23,19 @@
     background-repeat: no-repeat;
 }
 
+ h1 {
+    font-size: 3rem;
+    color: antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    text-shadow: 0cap;
+
+
+
+}
+
 fieldset{
     width: 500px;
     height: auto;
