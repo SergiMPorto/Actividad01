@@ -1,28 +1,72 @@
-/*DIVS*/
-/*
-#navegador ul {
-    list-style-type: none;
-    text-align: left;
-    padding-left: 0%;
-}
-#navegador li a {
-    padding: 20px 30px 20px 30px;
-    color: #0d0e0d;
-    background-color: #075732;
-    border: 1px solid #ccc;
-    text-decoration: none;
-    
- }
+/*MENU*/
 
-#navegador li {
-    display: inline;
+.barra{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 3%;
+    height: 9%;
+    
+    transition: .4s all;
+    z-index: 1;
+}
+
+.barra ul{
+    padding:0px;
     text-align: center;
-    margin: 0%;
 }
-.hijos{
-    display:inline;
+
+.barra li{
+    transition: .3s all;
 }
-*/
+
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    font-size: 0px;
+    padding:0px;
+}
+
+.barra h2{
+    text-align: center;
+    color:white;
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size: 0px;
+}
+
+.barra:hover{
+    width: 20%;
+    height: 100%;
+
+    background-color: green;
+}
+
+.barra:hover h2{
+    padding: 15px;
+    font-size: 35px;
+}
+
+.barra:hover a{
+    font-size: 20px;
+    color:white;
+
+    display: block;
+    padding:20px;
+}
+
+.barra:hover img{
+    height: 0px!important;
+}
+
+.barra:hover li{
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+
+
+
+
 
 #Fotoga {
     width: 100%;
@@ -66,40 +110,49 @@ fieldset {
 
 /*FOOTER*/
 
-.flex-center{
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-#fondo{
-    width: 100%;
-    height: 100%;
-    /*background-image: url(https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?cs=srgb&dl=pexels-johannes-plenio-1423600.jpg&fm=jpg);*/
-    background-color: black;
-    background-repeat: none;
-    background-size: cover;
-    background-position: center;
+.pie-pagina .grupo-1 .box figure img{
+    width:250px;
 }
 
-#fondo ul li{
-    font-family: arial;
-    font-size: 19px;
-    display: inline;
-    margin:10%;
-            
+.pie-pagina .grupo-1 .box h2{
+    color:#fff;
+    margin-bottom: 25px;
+    font-size: 20px;
 }
 
-#logoTwitter{
-    width: 50px;
-    height: 50px;
+.pie-pagina .grupo-1 .box h2 a{
+    color:#fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
-#logoInstagram{
-    width: 50px;
-    height: 50px;
-}
-
-#prueba{
-    bottom: 10%;
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 20px;
 }
