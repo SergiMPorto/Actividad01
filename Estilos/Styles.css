@@ -74,7 +74,7 @@
     background-repeat: no-repeat;
 }
 
- h1 {
+#cabecera {
     font-size: 3rem;
     color: antiquewhite;
     position: absolute;
@@ -82,9 +82,6 @@
     left: 50%;
     transform: translate(-50% -50%);
     text-shadow: 0cap;
-
-
-
 }
 
 fieldset{
@@ -155,4 +152,16 @@ fieldset {
     height: 45px;
     line-height: 45px;
     margin-right: 20px;
+}
+
+.pie-pagina .grupo-2{
+    color:#fff;
+    text-align: right;
+    margin-right: 5px;
+    margin: 5px;
+}
+
+.pie-pagina .grupo-1 .box #privacidad:hover{
+    color:red!important;
+    text-decoration: underline;
 }
