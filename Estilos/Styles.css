@@ -1,0 +1,158 @@
+/*MENU*/
+
+.barra{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 3%;
+    height: 9%;
+    
+    transition: .4s all;
+    z-index: 1;
+}
+
+.barra ul{
+    padding:0px;
+    text-align: center;
+}
+
+.barra li{
+    transition: .3s all;
+}
+
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    font-size: 0px;
+    padding:0px;
+}
+
+.barra h2{
+    text-align: center;
+    color:white;
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size: 0px;
+}
+
+.barra:hover{
+    width: 20%;
+    height: 100%;
+
+    background-color: green;
+}
+
+.barra:hover h2{
+    padding: 15px;
+    font-size: 35px;
+}
+
+.barra:hover a{
+    font-size: 20px;
+    color:white;
+
+    display: block;
+    padding:20px;
+}
+
+.barra:hover img{
+    height: 0px!important;
+}
+
+.barra:hover li{
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+
+
+
+
+
+#Fotoga {
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+ h1 {
+    font-size: 3rem;
+    color: antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    text-shadow: 0cap;
+
+
+
+}
+
+fieldset{
+    width: 500px;
+    height: auto;
+
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 10px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+
+/*FOOTER*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width:250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color:#fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box h2 a{
+    color:#fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 20px;
+}
