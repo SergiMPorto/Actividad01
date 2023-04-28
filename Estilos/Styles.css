@@ -1,3 +1,9 @@
+/*INICIO*/
+.cuerpo {
+    background-image: url(../img/Bosque1.jpg)!important;
+    background-color: #fff;
+}
+
 /*MENU*/
 
 .barra{
@@ -39,6 +45,7 @@
     height: 100%;
 
     background-color: green;
+    
 }
 
 .barra:hover h2{
@@ -77,7 +84,7 @@
 #cabecera {
     font-size: 3rem;
     color: antiquewhite;
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% -50%);
@@ -107,9 +114,17 @@ fieldset {
 
 /*FOOTER*/
 
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
 .pie-pagina{
     width: 100%;
     background-color: black;
+    left: 0%;
+    
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -118,7 +133,8 @@ fieldset {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 50px;
-    padding: 45px 0px;
+    padding: 0px;
+    align-items: flex-end;
 }
 
 .pie-pagina .grupo-1 .box figure{
@@ -168,6 +184,9 @@ fieldset {
 
 }
 
+.pie-pagina .grupo-1 .box .figureLogo{
+    margin-bottom: 0;
+}
 
 
 .Contacto{
