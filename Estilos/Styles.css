@@ -155,8 +155,8 @@ fieldset {
     border-color: rgb(192, 192, 192);
     border-image: initial;
    position: relative;
-   width:500px;
-    height:600px;
+   width: 600px;
+    height: 700px;
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 10%;
@@ -332,7 +332,7 @@ footer{
     font-family: 'Lucida Grande';
     text-align: justify;
     position: absolute;
-    width: 50vw;
+    width: 600px;
     height: 700px;
     text-shadow: 0cap;
    
@@ -433,7 +433,7 @@ p {
 .NOTICIAS{
    
     
-    height: 2100px;
+    height: 300%;
     width: 100%;
     position: absolute;
     top: 1000;
@@ -457,3 +457,24 @@ p {
     ;
 }
 
+
+.Contenedor{
+    width: 80px;
+    max-width: 1000px;
+}
+
+@media screen and ( max-width: 800px) {
+    .Contenedor {
+        width: 100%;
+    }
+    
+}
+    
+
+@media screen and ( max-width: 300px) {
+    .Contenedor {
+        width: 50%;
+      
+    }
+    
+}
