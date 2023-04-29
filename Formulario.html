@@ -5,13 +5,13 @@
         <meta charset="UTF-8" />
         <title>Recupera tu bosque</title>
         <link rel="stylesheet" href="Estilos/Styles.css">
-        <img  id=Fotoga src="img/Bosque2.jpg"  alt="Bosque"> 
-        <h1> Recupera Tu Bosque</h1>
+        <!--<img  id=Fotoga src="img/Bosque2.jpg"  alt="Bosque"> 
+        <h1> Recupera Tu Bosque</h1>-->
     </head>
 
 
 
-    <body>
+    <body class="cuerpo">
 
      <!--NAVEGADOR MENU-->
         <nav clas="Menú">
@@ -19,58 +19,61 @@
                 <h2>Menu<img id="Menu" src="img/iconoMenu.png" alt="Menu" style="width: 50px; height: 50px;"></h2>
                 <ul>
                     <li><a href="http://127.0.0.1:5500/Actividad01.html">Inicio</a></li>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="http://127.0.0.1:5500/SobreNosotros.html">Sobre nosotros</a></li>
+                    <li><a href="http://127.0.0.1:5500/Contacto.html">Contacto</a></li>
                     <li> <a href=#>Noticias</a></li>
                     <li><a href="http://127.0.0.1:5500/Formulario.html"> Hazte socio/a</a></li>
                 </ul>
             </div>
         </nav>
 
+        
+
         <form action="procesarDatos.jsp method="get">
 
             <fieldset class="fieldset">
-                <legend>Hazte socio</legend>
+                <legend id="Socio">Hazte socio</legend>
                 <br>
-                <label for="nombre">Nombre:</label>
+                <label  id="Nombre", for="nombre">Nombre:</label>
                 <input id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre" autofocus required>
-                <label for="apellidos">Apellidos</label>
+                <label  id="Apellidos" for="apellidos">Apellidos</label>
                 <input id= "apellidos" type="text" name="apellidos" placeholder="Escribe tu apellidos" autofocus required>
                 </br>
                 <br>
-                <label for="dni">DNI</label>
+                <label id="DNI" for="dni">DNI</label>
                 <input id="dni" type="text" name="DNI" autofocus required>
                 </br>
                 <br>
-                <label for="fecha_nacimiento">Fecha Nacimiento</label>
+                <label id="FECHANACIMIENTO" for="fecha_nacimiento">Fecha Nacimiento</label>
                 <input id=fecha_nacimiento type="date" name="trip-start"  autofocus required>
                 </br>
                 <br>
-                <label for="dirección">Dirección</label>
+                <label id="DIRECCIÓN" for="dirección">Dirección</label>
                 <input type="text" name="dirección" id="dirección" autofocus required placeholder="Escribe tu dirección">
                 </br>
                 <br>
-                <label for="email">Email</label>
+                <label id="EMAIL" for="email">Email</label>
                 <input type="email" name="email" id="email" autofocus>
                 </br>
                 <br>
-                <label for="Teléfono">Teléfono</label>
+                <label id="TELEFONO" for="Teléfono">Teléfono</label>
                 <input type="tel" id="telefono" autofocus placeholder="Escribe">
                 </br>
 
 
-                <label for="Cuota">Cuota</label> <br/>
-                <input type="radio" name="Cuota" value="Anual"/> Anual<br/>
-                <input type="radio" name="Cuota" value="Mensual"/>Mensual<br/>
-                <input type="radio" name="Cuota" value="Trimestral"/>Trimestral<br/>
-                <input type="radio" name="Cuota"  value="Semestral"/>Semestral<br/>
-                <br>
-                <label for="Importe">Importe</label>
+                <label id="CUOTA" for="Cuota">Cuota</label> 
+                <br id="periodo">
+                <input  type="radio" name="Cuota" value="Anual"/>  <label for="anual" id="Anual"> Anual</label>
+                <input id="Mensual" type="radio" name="Cuota" value="Mensual"/><label for="Mensual" id="Mensual"> Mensual</label>
+                <input id="Trimestral" type="radio" name="Cuota" value="Trimestral"/><label for="Trimestral" id="Trimestral"> Trimestral</label>
+                <input id="Semestral" type="radio" name="Cuota"  value="Semestral"/><label for="anual" id="Semestral"> Semestral</label>
+                <br/>
+                <label id="IMPORTE" for="Importe">Importe</label>
                 <input type="text" name="importe" id="importe">
                 </br>
                 <br>
-                <label for="terminos "> ¿Acepta los términos de uso?</label>
-                </br> He leído y acepto los términos de uso.
+                <label id="TERMINOS" for="terminos "> ¿Acepta los términos de uso?</label>
+                </br > <label for="acepto" id="acepto"> He leído acepto los términos </label>
                 <input type="checkbox" name="términos"/>
                 <br/>
                 <input type="submit" value="Enviar datos"/>
@@ -83,5 +86,32 @@
         </form>
     
     </body>
+    <footer class="pie-pagina" style="bottom: 0; position: fixed; width: 100%;">
+        <div class="grupo-1">
+            <div class="box">
+                <figure class="figureLogo">
+                    <a href="#"><img  id="Logo" src="img/pruebaLogo.png"  alt="Logo" style="width: 150px; height: 150px;"></a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2 id="privacidad"><a href="http://127.0.0.1:5500/PoliticaPrivacidad.html">Política de privacidad y cookies</a></h2>
+            </div>
+            <div class="box"  style="margin-bottom: 15px;">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://es-es.facebook.com/"><img  id=logoFacebook src="img/logoFacebook.png"  alt="Facebook" style="width: 40px; height: 40px;"></a>
+                    <a href="https://www.instagram.com"><img  id=logoInstagram src="img/logoInstagram.png"  alt="Instagram" style="width: 40px; height: 40px;"></a>
+                    <a href="https://twitter.com/?lang=es"><img  id=logoTwitter src="img/logoTwitter.png"  alt="Twitter" style="width: 40px; height: 40px;"></a>
+                    <a href="https://www.youtube.com/"><img  id=logoYoutube src="img/logoYoutube.png"  alt="Youtube" style="width: 40px; height: 40px;"></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Nombre empresa</b> - Todos los Derechos Reservados</small>
+        </div>
+
+
+    </footer>
 
 </html>
