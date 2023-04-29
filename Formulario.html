@@ -32,47 +32,48 @@
         <form action="procesarDatos.jsp method="get">
 
             <fieldset class="fieldset">
-                <legend>Hazte socio</legend>
+                <legend id="Socio">Hazte socio</legend>
                 <br>
-                <label for="nombre">Nombre:</label>
+                <label  id="Nombre", for="nombre">Nombre:</label>
                 <input id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre" autofocus required>
-                <label for="apellidos">Apellidos</label>
+                <label  id="Apellidos" for="apellidos">Apellidos</label>
                 <input id= "apellidos" type="text" name="apellidos" placeholder="Escribe tu apellidos" autofocus required>
                 </br>
                 <br>
-                <label for="dni">DNI</label>
+                <label id="DNI" for="dni">DNI</label>
                 <input id="dni" type="text" name="DNI" autofocus required>
                 </br>
                 <br>
-                <label for="fecha_nacimiento">Fecha Nacimiento</label>
+                <label id="FECHANACIMIENTO" for="fecha_nacimiento">Fecha Nacimiento</label>
                 <input id=fecha_nacimiento type="date" name="trip-start"  autofocus required>
                 </br>
                 <br>
-                <label for="dirección">Dirección</label>
+                <label id="DIRECCIÓN" for="dirección">Dirección</label>
                 <input type="text" name="dirección" id="dirección" autofocus required placeholder="Escribe tu dirección">
                 </br>
                 <br>
-                <label for="email">Email</label>
+                <label id="EMAIL" for="email">Email</label>
                 <input type="email" name="email" id="email" autofocus>
                 </br>
                 <br>
-                <label for="Teléfono">Teléfono</label>
+                <label id="TELEFONO" for="Teléfono">Teléfono</label>
                 <input type="tel" id="telefono" autofocus placeholder="Escribe">
                 </br>
 
 
-                <label for="Cuota">Cuota</label> <br/>
-                <input type="radio" name="Cuota" value="Anual"/> Anual<br/>
-                <input type="radio" name="Cuota" value="Mensual"/>Mensual<br/>
-                <input type="radio" name="Cuota" value="Trimestral"/>Trimestral<br/>
-                <input type="radio" name="Cuota"  value="Semestral"/>Semestral<br/>
-                <br>
-                <label for="Importe">Importe</label>
+                <label id="CUOTA" for="Cuota">Cuota</label> 
+                <br id="periodo">
+                <input  type="radio" name="Cuota" value="Anual"/>  <label for="anual" id="Anual"> Anual</label>
+                <input id="Mensual" type="radio" name="Cuota" value="Mensual"/><label for="Mensual" id="Mensual"> Mensual</label>
+                <input id="Trimestral" type="radio" name="Cuota" value="Trimestral"/><label for="Trimestral" id="Trimestral"> Trimestral</label>
+                <input id="Semestral" type="radio" name="Cuota"  value="Semestral"/><label for="anual" id="Semestral"> Semestral</label>
+                <br/>
+                <label id="IMPORTE" for="Importe">Importe</label>
                 <input type="text" name="importe" id="importe">
                 </br>
                 <br>
-                <label for="terminos "> ¿Acepta los términos de uso?</label>
-                </br> He leído y acepto los términos de uso.
+                <label id="TERMINOS" for="terminos "> ¿Acepta los términos de uso?</label>
+                </br > <label for="acepto" id="acepto"> He leído acepto los términos </label>
                 <input type="checkbox" name="términos"/>
                 <br/>
                 <input type="submit" value="Enviar datos"/>
