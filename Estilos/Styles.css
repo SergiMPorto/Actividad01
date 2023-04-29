@@ -328,15 +328,19 @@ footer{
     
     font-size:  40px; ;
     
-    color: rgb(184, 179, 179);
-    font-family:  'Lucida Grande';
+    color: #fffcfc;
+    font-family: 'Lucida Grande';
     text-align: justify;
-       position: absolute;
+    position: absolute;
     width: 50vw;
-    height: 50vh;
+    height: 700px;
     text-shadow: 0cap;
    
 
+}
+
+#Contacto{
+    color: antiquewhite;
 }
 
 
@@ -426,3 +430,30 @@ p {
     font-style: normal;
     font-weight: 400;
 }
+.NOTICIAS{
+   
+    
+    height: 2100px;
+    width: 100%;
+    position: absolute;
+    top: 1000;
+    left: 0;
+    background-color: rgb(28, 60, 50);
+    border-top-width: 500px;
+    margin-top: 200px;
+    overflow: scroll;
+    margin-left: 0%;
+    margin-bottom: 20000px;
+   
+}
+
+#Noticias{
+    text-align: center;
+}
+
+#ParrafoNoticias{
+    color: #fffcfc;
+   text-align: initial
+    ;
+}
+
