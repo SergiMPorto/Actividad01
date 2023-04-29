@@ -1,11 +1,11 @@
 /*INICIO*/
 
-@media screen   { html {max-width: 700px;}
+
     
-}
+
 
 .cuerpo {
-    background-image: url(/img/BosqueOscuro.jpeg)!important;
+    background-image: url("/img/BosqueOscuro.jpeg")!important;
     background-color: #fff;
     
     opacity: 1;
