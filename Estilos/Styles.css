@@ -1,14 +1,4 @@
 /*INICIO*/
-<<<<<<< HEAD
-.cuerpo {
-    background-image: url(../img/Bosque4.jpg)!important;
-    background-color: #fff;
-    background-size: cover;
-=======
-
-
-    
-
 
 .cuerpo {
     background-image: url(../img/BosqueOscuro.jpeg)!important;
@@ -18,7 +8,6 @@
     background-repeat: no-repeat;
     
     
->>>>>>> f33b68b382a07f0db501eea78326504cfd5f0b36
 }
 
 .sectionInicial {
