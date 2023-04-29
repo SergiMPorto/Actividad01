@@ -393,3 +393,47 @@ footer{
  }
  /*CONTACTO*/
 
+/*SECTION*/
+
+h2 {
+    font-size: 2rem; 
+    font-style: italic;
+    color: rgb(3, 107, 29);
+    position: text-align-center;
+    top: 25px; 
+    left: 25%;
+    transform: translate(-25% -25%);
+    text-shadow: 0cap;
+  
+}
+
+h3 {
+    font-size: x-large;
+    font-style: oblique;
+    color: rgb(13, 198, 19);
+    position: left;
+    
+}
+#BOSQUENOTICIA1 {
+    width: 30%;
+    height: 250px;
+}
+#BOSQUENOTICA2 {
+    width: 30%;
+    height: 250px;
+}
+#BOSQUENOTICIA3 {
+    width: 30%;
+    height: 250px;
+}
+#BOSQUENOTICIA4 {
+    width: 30%;
+    height: 250px;
+}
+
+p {
+    font-size: larger;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+}
