@@ -325,8 +325,29 @@ footer{
 
 }
 
+<<<<<<< HEAD
+
+/*
+#navegador ul {
+    list-style-type: none;
+    text-align: center;
+}
+#navegador li a {
+    padding: 20px 30px 20px 30px;
+    color: #0d0e0d;
+    background-color: #075732;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
+
+#navegador li {
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+=======
 .pie-pagina .grupo-1 .box .figureLogo{
     margin-bottom: 0;
+>>>>>>> f33b68b382a07f0db501eea78326504cfd5f0b36
 }
 
 
