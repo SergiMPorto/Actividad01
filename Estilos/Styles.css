@@ -155,8 +155,8 @@ fieldset {
     border-color: rgb(192, 192, 192);
     border-image: initial;
    position: relative;
-   width:500px;
-    height:600px;
+   width: 600px;
+    height: 700px;
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 10%;
@@ -328,15 +328,19 @@ footer{
     
     font-size:  40px; ;
     
-    color: rgb(184, 179, 179);
-    font-family:  'Lucida Grande';
+    color: #fffcfc;
+    font-family: 'Lucida Grande';
     text-align: justify;
-       position: absolute;
-    width: 50vw;
-    height: 50vh;
+    position: absolute;
+    width: 600px;
+    height: 700px;
     text-shadow: 0cap;
    
 
+}
+
+#Contacto{
+    color: antiquewhite;
 }
 
 
@@ -425,4 +429,58 @@ p {
     color: black;
     font-style: normal;
     font-weight: 400;
+}
+.NOTICIAS{
+   
+    
+    height: 300%;
+    width: 100%;
+    position: absolute;
+    top: 1000;
+    left: 0;
+    background-color: rgb(28, 60, 50);
+    border-top-width: 500px;
+    margin-top: 200px;
+    overflow: scroll;
+    margin-left: 0%;
+    margin-bottom: 20000px;
+   
+}
+
+#Noticias{
+    text-align: center;
+}
+
+#ParrafoNoticias{
+    color: #fffcfc;
+   text-align: initial
+    ;
+}
+
+
+.Contenedor{
+    width: 80px;
+    max-width: 1000px;
+}
+
+@media screen and ( max-width: 800px) {
+    .Contenedor {
+        width: 100%;
+    }
+    
+}
+    
+
+@media screen and ( max-width: 300px) {
+    .Contenedor {
+        width: 50%;
+      
+    }
+    
+}
+.publicidad{
+    width: 100px;
+    
+    float: right ;
+    
 }

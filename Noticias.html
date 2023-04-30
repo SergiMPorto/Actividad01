@@ -5,23 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=n0, initial-scale=1, maximum-scale=1">
+   
+    <div class="publicidad">
+    <aside > 
+           <img src="/img/agartur.jpeg" alt="Galicia rural">
+    </aside>
+     </div>
+     
 </head>
-<body>
+
+<body class="cuerpo">
+    
+    <div class="Contenedor"> 
+    <!--NAVEGADOR MENU-->
+       <nav clas="Menú">
+           <div class="barra">
+               <h2>Menu<img id="Menu" src="img/iconoMenu.png" alt="Menu" style="width: 50px; height: 50px;"></h2>
+               <ul>
+                   <li><a href="http://127.0.0.1:5500/Actividad01.html">Inicio</a></li>
+                   <li><a href="http://127.0.0.1:5500/SobreNosotros.html">Sobre nosotros</a></li>
+                   <li><a href="http://127.0.0.1:5500/Contacto.html">Contacto</a></li>
+                   <li> <a href=http://127.0.0.1:5500/Noticias.html>Noticias</a></li>
+                   <li><a href="http://127.0.0.1:5500/Formulario.html"> Hazte socio/a</a></li>
+               </ul>
+           </div>
+       </nav>
     <section>
-        <section class="NOTICIAS SOBRE BOSQUES">
+        <section class="NOTICIAS">
             <link rel="stylesheet" href="Estilos/Styles.css">
-            <h2>NOTICIAS SOBRE BOSQUES</h2>
+            <h2 id="Noticias">NOTICIAS SOBRE BOSQUES</h2>
             <h3 class="titulo">REPOBLAR BOSQUES INCENDIADOS RECIENTEMENTE</h3>
             <img  id=BOSQUENOTICIA1  src="img/BOSQUENOTICIA1.jpg"  alt-aling-left="BOSQUENOTICIA1">
             <link rel="stylesheet" href="Estilos/Styles.css">
             <a href="https://es.lipsum.com/feed/html/"></a>
-            <p>Diversas empresas apuestan por un modelo de reforestación <br>asesoradas por especialistas.
+            <p id="ParrafoNoticias">Diversas empresas apuestan por un modelo de reforestación <br>asesoradas por especialistas.
             En la actualidad, cuenta con más <br> de 420 proyectos de reducción de CO₂ inscritos en España.
             </p>
             <h3>REPOBLAR LOS BOSQUES PARA PURIFICAR LA ATMOSFERA</h3>
             <img  id=BOSQUENOTICIA4  src="img/BOSQUENOTICIA4.jpg"  image-align-left="BOSQUENOTICIA4">  
             <a href="https://es.lipsum.com/feed/html/"></a>
-            <p> Durante la fotosíntesis, los bosques absorben CO2 de la atmósfera<br> y lo transforman en oxígeno.
+            <p id="ParrafoNoticias"> Durante la fotosíntesis, los bosques absorben CO2 de la atmósfera<br> y lo transforman en oxígeno.
              Es decir, además de ejercer un papel <br>principal en la función respiratoria de los seres vivos del planeta <br>
              logran disminuir el efecto invernadero que amenaza con el cambio<br> climático.
             </br>
@@ -29,7 +53,7 @@
             <h3>ESPAÑA COMO MODELO DE REPOBLACIÓN DE BOSQUES</h3>
             <img  id=BOSQUENOTICIA3  src="img/BOSQUENOTICIA3.jpg"  alt-aling-left="BOSQUENOTICIA3">
             <a href="https://es.lipsum.com/feed/html/"></a>
-            <p>
+            <p id="ParrafoNoticias">
             Arranca uno de los mayores planes de reforestación de España
             <br>El proyecto Motor Verde comienza este mes para reforestar <br> áreas incendiadas
              y degradadas en más de 70.000 hectáreas
@@ -37,7 +61,7 @@
             </p>
             <h3>REPOBLACION DE BOSQUES TRAS LOS PEORES INCENDIOS DE ESPAÑA</h3>
             <img  id=BOSQUENOTICA2  src="img/BOSQUENOTICA2.jpg"  alt-aling-left="BOSQUENOTICA2">
-            <a href="https://es.lipsum.com/feed/html/"></a> <p> Los bosques protegen el suelo, revitalizan la biodiversidad, 
+            <a href="https://es.lipsum.com/feed/html/"></a> <p id="ParrafoNoticias"> Los bosques protegen el suelo, revitalizan la biodiversidad, 
             <br>generan trabajo y arraigo, alimentan los sistemas hídricos y <br> absorben el 24% de las emisiones totales en el país.<br>
              Sin embargo, teniendo en cuenta el riesgo de desertificación <br>  de España 
              es importante combinar criterio y voluntad a la hora <br> de repoblar masas forestales perdidas en los incendios. 
@@ -45,4 +69,33 @@
             </p>
 
 </body>
+<footer class="pie-pagina" style="bottom: 0; position: fixed; width: 100%;">
+    <div class="grupo-1">
+        <div class="box">
+            <figure class="figureLogo">
+                <a href="#"><img  id="Logo" src="img/pruebaLogo.png"  alt="Logo" style="width: 150px; height: 150px;"></a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2 id="privacidad"><a href="http://127.0.0.1:5500/PoliticaPrivacidad.html">Política de privacidad y cookies</a></h2>
+        </div>
+        <div class="box"  style="margin-bottom: 15px;">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="https://es-es.facebook.com/"><img  id=logoFacebook src="img/logoFacebook.png"  alt="Facebook" style="width: 40px; height: 40px;"></a>
+                <a href="https://www.instagram.com"><img  id=logoInstagram src="img/logoInstagram.png"  alt="Instagram" style="width: 40px; height: 40px;"></a>
+                <a href="https://twitter.com/?lang=es"><img  id=logoTwitter src="img/logoTwitter.png"  alt="Twitter" style="width: 40px; height: 40px;"></a>
+                <a href="https://www.youtube.com/"><img  id=logoYoutube src="img/logoYoutube.png"  alt="Youtube" style="width: 40px; height: 40px;"></a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2023 <b>Nombre empresa</b> - Todos los Derechos Reservados</small>
+    </div>
+
+
+</footer>
+</div>
+
 </html>
