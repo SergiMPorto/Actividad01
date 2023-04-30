@@ -82,10 +82,11 @@
     padding-bottom: 7px;
     font-size: 0px;
     background-color: green;
+    width: 50px;
 }
 
 .barra:hover{
-    width: 20%;
+    width: 50%;
     height: 100%;
 
     background-color: green;
@@ -160,7 +161,7 @@ fieldset {
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: 10%;
-  border-radius: 20px;
+    border-radius: 20px;
     margin:auto;
     margin-top: 90px;
 }
